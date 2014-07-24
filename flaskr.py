@@ -46,7 +46,7 @@ def close_db(error):
 		g.sqlite_db.close()
 
 # Routes part
-@app.route('/'):
+@app.route('/')
 def show_entries():
 	db = get_db()
 	cur = db.execute("SELECT title, text FROM entries ORDER BY id DESC")
