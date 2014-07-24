@@ -1,0 +1,6 @@
+# Python garbage
+*.pyc
+*.pyo
+
+# Sql database
+*.db
